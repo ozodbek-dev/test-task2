@@ -1,0 +1,40 @@
+.field-container {
+	.input-text,
+	.input-password,
+	.input-number,
+	.field-select,
+	.input-mask,
+	.time-input,
+	.file-upload,
+	.date-picker {
+		&::placeholder {
+			color: #85888e!important;
+		}
+		border-radius: 4px;
+		border: 1px solid #333741 !important;
+		background: #33333333;
+		box-shadow: 0px 1px 2px 0px #1018280d;
+		color: #85888e;
+		font-size: 16px;
+		&:disabled,
+		&.disabled {
+			background-color: #4a505e4f !important;
+		}
+	}
+	.field-select.is-error-field {
+		border: 1px solid red !important;
+	}
+}
+.input__label {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #cecfd2;
+	margin-bottom: 5px;
+}
+
+.file-upload {
+	width: 100%!important;
+}
